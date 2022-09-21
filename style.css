@@ -1,0 +1,55 @@
+body {
+  background: rgb(20, 145, 209);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 145, 209, 1) 0%,
+    rgba(17, 207, 225, 1) 50%,
+    rgba(18, 199, 157, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  margin-top: 4rem;
+  padding: 3rem 5rem;
+  background-color: rgb(202, 238, 242);
+}
+form div {
+  margin-top: 1rem;
+}
+input {
+  width: 10rem;
+  height: 2rem;
+  border: none;
+  border-radius: 57px;
+  padding-left: 1rem;
+}
+.labels .email,
+.labels .password,
+.labels .confirmPassword {
+  padding-top: 1.2rem;
+}
+.fa-eye,
+.fa-eye-slash {
+  cursor: pointer;
+}
+
+.button {
+  background: radial-gradient(
+    circle,
+    rgba(22, 211, 173, 1) 0%,
+    rgba(21, 169, 203, 0.9587185215883228) 69%
+  );
+  cursor: pointer;
+  margin-top: 2rem;
+  width: 9rem;
+  height: 3rem;
+  border: none;
+  border-radius: 57px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}

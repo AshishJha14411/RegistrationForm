@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+    <title>Register Form</title>
+  </head>
+  <body>
+    <h1 class="heading">Registeration Form</h1>
+    <form action="" id="register">
+      <div class="labels">
+        <div class="name">
+          <i class="fas fa-user"></i>
+          <label for="name">Name:</label>
+        </div>
+        <div class="email">
+          <i class="fas fa-envelope"></i>
+          <label for="email">Email:</label>
+        </div>
+        <div class="password">
+          <i class="fas fa-key"></i>
+          <label for="password">Password:</label>
+        </div>
+        <div class="confirmPassword">
+          <i class="fas fa-lock"></i>
+          <label for="confirmPassword">Confirm Password:</label>
+        </div>
+      </div>
+      <div class="inputs">
+        <div class="name">
+          <input type="text" name="name" id="name" value="" placeholder="UserName" />
+        </div>
+        <div class="email">
+          <input type="email" name="email" id="email" placeholder="Email"/>
+        </div>
+        <div class="password">
+          <input type="password" name="password" id="password" placeholder="Password"/>
+<!--           <i class="fas fa-eye" id="togglePassword"></i> -->
+        </div>
+        <div class="confirmPassword">
+          <input type="password" name="confirmPassword" id="confirmPassword"  placeholder="Confirm Password"/>
+ <!--          <i class="fas fa-eye"></i> -->
+        </div>
+      </div>
+    </form>
+    <button class="button" id="submitBtn">Submit</button>
+    <script src="./script.js"></script>
+  </body>
+</html>

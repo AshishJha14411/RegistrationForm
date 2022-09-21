@@ -28,10 +28,14 @@ input {
   border-radius: 57px;
   padding-left: 1rem;
 }
+.labels .name{
+  font-weight: bolder;
+}
 .labels .email,
 .labels .password,
 .labels .confirmPassword {
   padding-top: 1.2rem;
+  font-weight: bolder;
 }
 .fa-eye,
 .fa-eye-slash {

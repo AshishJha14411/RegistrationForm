@@ -4,7 +4,7 @@ This is an Registration Form Template for registering a user to a website, this 
 
 3 hour approximately
 
-[Live Demo]()
+[Live Demo](https://regform-akj.netlify.app/)
 
 ### SnapShot of the program
 
